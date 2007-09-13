@@ -1,0 +1,1 @@
+export(convert_aln_amino,convert_aln_AAP,average_cols_aap,remove_gaps_groups,add_pseudo_counts,run_between_pca,top_residues_2_groups,create_profile_strings,Calculate_Row_Weights)
