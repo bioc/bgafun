@@ -13,7 +13,7 @@
 }
 \examples{
 library(bgafun)
-LDH <- read.alignment(File = system.file("sequences/LDH-MDH-PF00056.fasta", package = "bgafun"), format = "fasta")
+LDH <- read.alignment(file = system.file("sequences/LDH-MDH-PF00056.fasta", package = "bgafun"), format = "fasta")
 LDH.amino=convert_aln_amino(LDH)
 dim(LDH.amino)
 }
