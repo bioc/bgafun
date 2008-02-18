@@ -8,7 +8,7 @@ seq_count<-length(Alignment$seq)
 z<-list()
 
 for(i in 1:seq_count){
-    x<- (unlist(strsplit(Alignment$seq[i],split=NULL)))
+    x<- (unlist(strsplit(unlist(Alignment$seq[i]),split=NULL)))
     y<-convert_seq_amino(x)
     z[[i]]<-y
 }
