@@ -5,7 +5,6 @@
  This is a cover function that runs supervised PCA on a matrix that represents an alignment.
  The matrix can either be a binary matrix (with or without pseudocounts) or one that represents the properties at each position of the alignment
 }
-}
 \usage{
  run_between_pca(x,z,y)
 }

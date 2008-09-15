@@ -6,7 +6,6 @@
   It is used to minimise the effect of small sample size. The method of Henikoff and Henikoff is used to calculate the pseudocounts
   An alternative method is to simply add 1 to the binary matrix
 }
-}
 \usage{
  add_pseudo_counts(amino,groups)
 }
