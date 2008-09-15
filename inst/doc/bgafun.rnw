@@ -185,7 +185,7 @@ LDH.profiles[, colnames(LDH.profiles) %in% names(top_res)]
 @
 
 \section{Bib}
-\bibliography{Bibtext.bib}
+\bibliography{Bibtext}
 \bibliographystyle{mystyle}
 
 \end{document}
