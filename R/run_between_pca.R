@@ -11,7 +11,7 @@ x<-as.matrix(x)
 z<-as.matrix(z)
 
 dataset.pca<-dudi.pca(as.data.frame(z),row.w=seq_weights,scannf=FALSE,nf=20)
-dataset.bet<-between(dataset.pca,y,scannf=FALSE,nf=length(levels(y)))
+dataset.bet<-bca(dataset.pca,y,scannf=FALSE,nf=length(levels(y)))
 res <- list(ord = dataset.pca, bet = dataset.bet, fac = y)
 class(res) <- c("pca", "bga")
 return(res)
