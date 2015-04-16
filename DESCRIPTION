@@ -2,7 +2,7 @@ Package: bgafun
 Type: Package
 Title: BGAfun A method to identify specifity determining residues in
         protein families
-Version: 1.30.0
+Version: 1.31.0
 Date: 2007-08-03
 Author: Iain Wallace
 Maintainer: Iain Wallace <iain.wallace@ucd.ie>
